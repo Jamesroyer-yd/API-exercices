@@ -32,7 +32,7 @@ async function showFive() {
     // Si une erreur s'est produite dans le "try", on arrive ici
     } catch (error) {
         // On affiche une alerte pour prévenir l'utilisateur qu'il y a eu un problème
-        alert("Une erreur est survenue", error);
+        alert("Tié con ammendoné", error);
     }
 }
 
