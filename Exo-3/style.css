@@ -1,0 +1,69 @@
+.fun {
+    display : flex ;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 300px;
+    gap: 150px;
+    align-items: center;
+}
+
+.hairSelector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.perso{
+    position: relative;
+}
+
+.perso img[id]{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ColorSelector{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+
+.colorHairSelector{
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.black{
+    background-color:#3C3C3B;
+    aspect-ratio: 1/1;
+    width: 90px;
+
+}
+.blond{
+    background-color: #F9B233;
+    aspect-ratio: 1/1;
+    width: 90px;
+
+}
+.turquoise{
+    background-color: #00A19A;
+    aspect-ratio: 1/1;
+    width: 90px;
+}
+
+.arrowLeft:hover, .arrowRight:hover{
+    cursor: pointer;
+    filter: brightness(1.75);
+
+}
+
+:is(.black, .blond, .turquoise):hover {
+    cursor: pointer;
+    filter: brightness(1.25);
+}
